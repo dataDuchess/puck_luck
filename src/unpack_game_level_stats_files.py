@@ -4,7 +4,7 @@ from zipfile import ZipFile
 # Define variables
 DATA_FOLDER = '../data/raw/'
 FILE_NAME = 'NHL_game-Level.zip'
-OUTPUT_FOLDER = '../data/interim/'
+OUTPUT_FOLDER = '../data/interim/game_level'
 
 # Unzip archive folder
 with ZipFile(DATA_FOLDER + FILE_NAME, 'r') as zObject:
